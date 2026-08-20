@@ -1,0 +1,120 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile with role-based access for StayFind",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "role": { "type": "string", "enum": ["student", "owner", "admin"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["uid", "name", "email", "role"]
+    },
+    "Property": {
+      "title": "Property",
+      "description": "Student housing, PG, and accommodation listing",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "name": { "type": "string" },
+        "tagline": { "type": "string" },
+        "campusId": { "type": "string" },
+        "campusName": { "type": "string" },
+        "address": { "type": "string" },
+        "verificationStatus": { "type": "string", "enum": ["verified", "pending", "rejected"] },
+        "availability": { "type": "string", "enum": ["available", "few_left", "sold_out"] }
+      },
+      "required": ["id", "name", "campusId"]
+    },
+    "VisitRequest": {
+      "title": "VisitRequest",
+      "description": "Student scheduled visit or tour request for a property",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "propertyId": { "type": "string" },
+        "propertyName": { "type": "string" },
+        "userId": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "studentName": { "type": "string" },
+        "studentPhone": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "accepted", "rejected", "completed", "confirmed"] }
+      },
+      "required": ["id", "propertyId", "studentName", "studentPhone"]
+    },
+    "Wishlist": {
+      "title": "Wishlist",
+      "description": "User bookmarked property IDs",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "propertyIds": { "type": "array" }
+      },
+      "required": ["userId", "propertyIds"]
+    },
+    "Review": {
+      "title": "Review",
+      "description": "Student rating and feedback for a property",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "propertyId": { "type": "string" },
+        "userId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "rating": { "type": "number" },
+        "comment": { "type": "string" }
+      },
+      "required": ["id", "propertyId", "rating", "comment"]
+    },
+    "Report": {
+      "title": "Report",
+      "description": "Inaccurate or fraudulent listing report for admin moderation",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "propertyId": { "type": "string" },
+        "propertyName": { "type": "string" },
+        "reportedBy": { "type": "string" },
+        "reason": { "type": "string" },
+        "description": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "reviewed", "dismissed"] }
+      },
+      "required": ["id", "propertyId", "reason", "description"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profiles"
+    },
+    "/properties/{propertyId}": {
+      "schema": "Property",
+      "description": "Verified student accommodations and PGs"
+    },
+    "/rooms/{roomId}": {
+      "schema": { "$ref": "#/entities/Property" },
+      "description": "Individual room configuration"
+    },
+    "/visitRequests/{requestId}": {
+      "schema": "VisitRequest",
+      "description": "Scheduled visits and tour bookings"
+    },
+    "/wishlists/{userId}": {
+      "schema": "Wishlist",
+      "description": "Saved student listings"
+    },
+    "/reviews/{reviewId}": {
+      "schema": "Review",
+      "description": "Student feedback and reviews"
+    },
+    "/reports/{reportId}": {
+      "schema": "Report",
+      "description": "Inaccurate property reports for moderation"
+    }
+  }
+}

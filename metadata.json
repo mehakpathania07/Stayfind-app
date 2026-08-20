@@ -1,0 +1,6 @@
+{
+  "name": "StayFind",
+  "description": "Student living platform to discover, compare, and calculate true costs for verified PGs, rooms, and hostels near campus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

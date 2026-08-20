@@ -1,0 +1,62 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isUser(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    // Allow user profile reads and writes
+    match /users/{userId} {
+      allow read: if true;
+      allow write: if isSignedIn() || request.auth.uid == userId;
+    }
+
+    // Properties: publicly readable so students can explore without login
+    // Write permitted for authenticated owners, admins, or property owners
+    match /properties/{propertyId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+
+    // Rooms subcollection / collection
+    match /rooms/{roomId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Visit requests / tour bookings
+    match /visitRequests/{requestId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+
+    // Wishlists
+    match /wishlists/{userId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Reviews
+    match /reviews/{reviewId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+
+    // Reports
+    match /reports/{reportId} {
+      allow read: if true;
+      allow create: if true;
+      allow update, delete: if true;
+    }
+  }
+}

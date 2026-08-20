@@ -1,0 +1,9 @@
+{
+  "apiKey": "AIzaSyDemoKeyPlaceholderForLocalDevAndTest123",
+  "authDomain": "stayfind-demo.firebaseapp.com",
+  "projectId": "stayfind-demo",
+  "storageBucket": "stayfind-demo.appspot.com",
+  "messagingSenderId": "123456789012",
+  "appId": "1:123456789012:web:abcdef1234567890",
+  "firestoreDatabaseId": "(default)"
+}
