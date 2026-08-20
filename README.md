@@ -1,347 +1,318 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080014,35:3b0764,70:7c3aed,100:06b6d4&height=230&section=header&text=STAYFIND&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=VERIFIED%20STUDENT%20PG%20FINDER&descSize=18&descAlignY=63" width="100%"/>
+<br>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=260&text=StayFind&fontSize=72&fontColor=ffffff&stroke=8B5CF6&strokeWidth=2&color=0:0F0524,30:1A0B3D,60:30105C,100:071B33&animation=twinkling&desc=student%20stays%20%7C%20made%20simple&descSize=18&descAlignY=72&fontAlignY=45" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&width=850&lines=%F0%9F%8F%A0+Find+a+place+that+feels+like+home.;%E2%9C%A8+Student-focused+accommodation+discovery.;%F0%9F%92%BB+Built+with+React+%2B+TypeScript+%2B+Firebase.;%F0%9F%9A%80+Designed%2C+developed+and+deployed+as+a+real-world+project." />
+<br>
 
-<br/><br/>
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=18&duration=3500&pause=900&color=E9D5FF&center=true&vCenter=true&width=720&lines=Find+a+place+that+feels+like+home+%F0%9F%8F%A0;Discover+%E2%80%A2+Explore+%E2%80%A2+Choose+%E2%80%A2+Stay+%E2%9C%A8;A+student-focused+way+to+find+your+next+stay+%F0%9F%92%9C" />
+
+<br><br>
 
 <a href="https://mehakpathania07.github.io/Stayfind-app/">
-<img src="https://img.shields.io/badge/%E2%9C%A8%20LIVE%20DEMO-Visit%20StayFind-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=090014"/>
+<img src="https://img.shields.io/badge/✦%20EXPLORE%20STAYFIND-ffffff?style=for-the-badge&labelColor=8B5CF6&color=8B5CF6"/>
 </a>
 
-<a href="https://github.com/mehakpathania07/Stayfind-app">
-<img src="https://img.shields.io/badge/%F0%9F%92%BB%20SOURCE%20CODE-GitHub-00D9FF?style=for-the-badge&logo=github&logoColor=white&labelColor=090014"/>
-</a>
+<br><br>
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/REACT-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=090014"/>
-<img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=090014"/>
-<img src="https://img.shields.io/badge/VITE-646CFF?style=flat-square&logo=vite&logoColor=white&labelColor=090014"/>
-<img src="https://img.shields.io/badge/TAILWIND%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white&labelColor=090014"/>
-<img src="https://img.shields.io/badge/FIREBASE-FFCA28?style=flat-square&logo=firebase&logoColor=black&labelColor=090014"/>
-<img src="https://img.shields.io/badge/GITHUB%20PAGES-222222?style=flat-square&logo=github&logoColor=white&labelColor=090014"/>
-
-<br/><br/>
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&customColorList=6,12,20,24&section=header" width="65%"/>
 
 </div>
 
-# ✦ About the Project
-
-**StayFind** is a modern, student-focused accommodation platform designed to simplify the process of discovering suitable **PGs and stays**.
-
-Finding accommodation in a new city can involve searching across multiple platforms, comparing different options and dealing with an overwhelming amount of information.
-
-**StayFind focuses on making that experience simpler through a clean, structured and student-friendly interface.**
+<br>
 
 <div align="center">
 
-### 🏠 Discover   •   🔎 Explore   •   ✨ Choose
+### ✦ **A little less searching.**
+
+### **A little more finding.** ✦
 
 </div>
 
+<br>
+
 ---
 
-# 🎯 Project Highlights
+<div align="center">
+
+## 🌙 What is StayFind?
+
+</div>
+
+StayFind is a **student-focused accommodation platform** built to make discovering PGs and stays a little easier.
+
+Finding a place in a new city can mean jumping between different listings, comparing options and spending way too much time searching.
+
+**StayFind brings that experience into one simple, modern interface.**
+
+<br>
+
+<div align="center">
+
+`🏠 Discover`    `✦`   
+`🔎 Explore`    `✦`   
+`💜 Choose`    `✦`   
+`✨ Stay`
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## ✨ Made to Feel Simple
+
+<br>
 
 <table>
 <tr>
-<td width="50%">
+<td align="center" width="25%">
 
-### 🧠 Real-World Problem
+### 🏠
 
-Built around a practical problem faced by students when searching for accommodation in a new city.
+**STAYS**
 
-</td>
-
-<td width="50%">
-
-### 💻 Modern Frontend
-
-Developed using React, TypeScript, Vite and Tailwind CSS with a component-based architecture.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🔥 Firebase Integration
-
-Uses Firebase-powered functionality as part of the application architecture.
+Explore accommodation options
 
 </td>
 
-<td width="50%">
+<td align="center" width="25%">
 
-### 🚀 Production Deployment
+### 🔎
 
-Configured and deployed the application using GitHub Pages with a GitHub Actions workflow.
+**DISCOVER**
+
+Find options easily
+
+</td>
+
+<td align="center" width="25%">
+
+### 🎨
+
+**BEAUTIFUL**
+
+Clean & modern interface
+
+</td>
+
+<td align="center" width="25%">
+
+### 📱
+
+**RESPONSIVE**
+
+Built for different screens
 
 </td>
 </tr>
 </table>
 
----
+</div>
 
-# ✨ Core Features
+<br>
+
+---
 
 <div align="center">
 
-|     🏠 Accommodation    |        🔎 Discovery       |   🎨 Experience   |
-| :---------------------: | :-----------------------: | :---------------: |
-| Explore available stays | Search and browse options |  Modern interface |
-|  Student-oriented flow  |   Organized information   | Responsive design |
-| Stay-focused experience |      Easy navigation      |    Clean UI/UX    |
+## 💫 The Experience
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=6,12,20,24&section=header" width="40%"/>
 
 </div>
 
-<br/>
+<br>
 
-### 🏠 Student-Centric Experience
+<table>
+<tr>
 
-The application is designed specifically around the accommodation discovery needs of students.
+<td width="50%" valign="top">
 
-### 🔎 Easy Discovery
+### 🏠 Discover
 
-Provides a focused way to explore available accommodation options without unnecessary complexity.
+Browse accommodation options through a focused student-friendly experience.
 
-### 🎨 Modern UI/UX
+<br>
 
-Uses a visually engaging interface with clear navigation and reusable UI components.
+### 🔍 Explore
 
-### 📱 Responsive Design
+Navigate through stays without the clutter of searching across multiple places.
 
-Designed to provide a consistent experience across different screen sizes.
+<br>
 
-### 🧩 Component-Based Architecture
+### 💜 Choose
 
-The application is organized into reusable React components to keep the codebase structured and maintainable.
+Get the information you need to explore the options that suit you.
 
-### 🔥 Firebase-Powered Functionality
+</td>
 
-Firebase is integrated into the project for application-level services.
+<td width="50%" valign="top">
 
-### ⚡ Modern Build Setup
+### 📱 Responsive
 
-Built using Vite for a fast development and production build workflow.
+Designed to remain comfortable and usable across different screen sizes.
+
+<br>
+
+### 🧩 Reusable
+
+Built with reusable React components to keep the interface organized.
+
+<br>
+
+### ⚡ Modern
+
+Powered by a modern frontend stack and Firebase integration.
+
+</td>
+
+</tr>
+</table>
+
+<br>
 
 ---
-
-# 🛠️ Technology Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,typescript,vite,tailwind,firebase,git,github,vscode&theme=dark"/>
+## 🪄 Built With
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=react,typescript,vite,tailwind,firebase,git,github,vscode&theme=dark" />
+
+<br><br>
+
+`React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Firebase`
 
 </div>
 
-<br/>
-
-| Technology          | Purpose                                 |
-| ------------------- | --------------------------------------- |
-| ⚛️ **React**        | Building the interactive frontend       |
-| 📘 **TypeScript**   | Type-safe application development       |
-| ⚡ **Vite**          | Development server and production build |
-| 🎨 **Tailwind CSS** | Styling and responsive UI               |
-| 🔥 **Firebase**     | Application services and integration    |
-| 🌿 **Git**          | Version control                         |
-| 🐙 **GitHub**       | Repository and project management       |
-| 🚀 **GitHub Pages** | Production deployment                   |
+<br>
 
 ---
 
-# 🧩 Project Architecture
+<div align="center">
+
+## 🌐 See It In Action
+
+<br>
+
+<a href="https://mehakpathania07.github.io/Stayfind-app/">
+
+<img src="https://img.shields.io/badge/OPEN%20LIVE%20WEBSITE-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=120526"/>
+
+</a>
+
+<br><br>
+
+<sub>✨ Deployed with GitHub Pages</sub>
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+## 🧬 Under the Hood
+
+</div>
 
 ```text
-Stayfind-app/
+Stayfind-app
 │
-├── 📂 .github/
-│   └── 📂 workflows/
-│       └── deploy.yml
+├── 🌐 public/
 │
-├── 📂 public/
+├── ⚛️ src/
+│   ├── 🧩 components/
+│   ├── 🧠 context/
+│   ├── 📦 data/
+│   ├── 🔥 firebase/
+│   ├── 🛠️ utils/
+│   │
+│   ├── App.tsx
+│   └── main.tsx
 │
-├── 📂 src/
-│   │
-│   ├── 📂 components/
-│   │   └── Reusable UI components
-│   │
-│   ├── 📂 context/
-│   │   └── Application state/context
-│   │
-│   ├── 📂 data/
-│   │   └── Application data
-│   │
-│   ├── 📂 firebase/
-│   │   └── Firebase configuration/integration
-│   │
-│   ├── 📂 utils/
-│   │   └── Utility functions
-│   │
-│   ├── 📄 App.tsx
-│   └── 📄 main.tsx
+├── ⚙️ .github/
+│   └── workflows/
 │
 ├── 📄 index.html
 ├── 📄 package.json
-├── 📄 package-lock.json
 ├── 📄 vite.config.ts
-└── 📄 README.md
+└── 📖 README.md
 ```
+
+<br>
 
 ---
-
-# 🚀 Deployment
-
-StayFind is deployed using **GitHub Pages**.
-
-The project includes a GitHub Actions workflow that automates the deployment process after changes are pushed to the repository.
-
-```text
-Developer
-    │
-    ▼
-Git Push
-    │
-    ▼
-GitHub Repository
-    │
-    ▼
-GitHub Actions
-    │
-    ▼
-Production Build
-    │
-    ▼
-GitHub Pages
-    │
-    ▼
-🌐 Live StayFind
-```
 
 <div align="center">
 
-<a href="https://mehakpathania07.github.io/Stayfind-app/">
-<img src="https://img.shields.io/badge/%F0%9F%8F%A0%20OPEN%20LIVE%20PROJECT-8B5CF6?style=for-the-badge&labelColor=080014"/>
-</a>
+## 🚀 Run It Yourself
 
 </div>
-
----
-
-# ⚙️ Run Locally
-
-### 1. Clone the repository
 
 ```bash
 git clone https://github.com/mehakpathania07/Stayfind-app.git
-```
 
-### 2. Navigate into the project
-
-```bash
 cd Stayfind-app
-```
 
-### 3. Install dependencies
-
-```bash
 npm install
-```
 
-### 4. Start the development server
-
-```bash
 npm run dev
 ```
 
-The application will be available through the local URL provided by Vite.
-
----
-
-# 🧠 What This Project Demonstrates
+<br>
 
 <div align="center">
 
-```text
-┌─────────────────────────────────────────┐
-│           DEVELOPMENT SKILLS             │
-├─────────────────────────────────────────┤
-│                                         │
-│  ⚛️  React Component Development        │
-│  📘 TypeScript                          │
-│  🎨 Responsive UI Development            │
-│  🧩 Reusable Components                 │
-│  🔥 Firebase Integration                │
-│  🌿 Git & GitHub                        │
-│  ⚡ Vite Build Workflow                 │
-│  🚀 GitHub Actions Deployment           │
-│  🏗️  Project Structure & Organization   │
-│                                         │
-└─────────────────────────────────────────┘
-```
+`npm install` → `npm run dev` → **✨ Welcome to StayFind**
 
 </div>
 
----
-
-# 📌 Why I Built StayFind
-
-I wanted to build a project around a **real-world problem rather than just a practice interface**.
-
-StayFind gave me an opportunity to work on:
-
-* Real-world problem solving
-* Frontend application development
-* Component-based architecture
-* Firebase integration
-* Responsive UI design
-* Git and GitHub workflow
-* Deployment using GitHub Actions
-
-The project represents my approach of **learning by building practical applications**.
+<br>
 
 ---
-
-# 👩‍💻 Developer
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:080014,50:7c3aed,100:06b6d4&height=100&section=header&text=MEHAK%20PATHANIA&fontSize=32&fontColor=ffffff&animation=twinkling" width="70%"/>
+## 💭 Why I Built It
 
-<br/>
+<br>
 
-### 💜 Mehak Pathania
+> **Finding accommodation shouldn't feel harder than finding a home.**
 
-**BCA Student · Aspiring Software Developer · AI & Web Development Enthusiast**
+<br>
 
-<br/>
+StayFind started from a simple idea — create a more focused and student-friendly way to explore accommodation options.
 
-<img src="https://img.shields.io/badge/%E2%9C%A8-AI%20INTEREST-8B5CF6?style=for-the-badge&labelColor=080014"/>
-<img src="https://img.shields.io/badge/%F0%9F%8C%90-WEB%20DEVELOPMENT-06B6D4?style=for-the-badge&labelColor=080014"/>
-<img src="https://img.shields.io/badge/%F0%9F%9A%80-LEARNING%20BY%20BUILDING-EC4899?style=for-the-badge&labelColor=080014"/>
+Building it also gave me hands-on experience with **React, TypeScript, reusable components, Firebase, responsive UI, Git/GitHub and deployment workflows.**
 
 </div>
 
+<br>
+
 ---
 
 <div align="center">
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=soft&height=120&text=MEHAK%20PATHANIA&fontSize=34&fontColor=ffffff&color=0:14052B,50:4C1D95,100:0891B2&animation=twinkling" width="75%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=700&lines=Thanks+for+visiting+StayFind+%E2%9C%A8;Keep+learning.+Keep+building.+Keep+growing.+%F0%9F%9A%80;Find+a+place+that+feels+like+home.+%F0%9F%8F%A0" />
+<br>
 
-<br/><br/>
+### 💜 BCA Student · Aspiring Software Developer · AI & Web Development Enthusiast
 
-⭐ **If you find StayFind interesting, consider giving the repository a star!** ⭐
+<br>
 
-<br/><br/>
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=15&duration=3000&pause=1000&color=C4B5FD&center=true&vCenter=true&width=650&lines=Learning+%E2%86%92+Building+%E2%86%92+Improving+%E2%9C%A8;Turning+ideas+into+real+projects+%F0%9F%92%BB;Curious+about+AI+%26+Web+Development+%F0%9F%8C%90" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:7c3aed,100:ff00cc&height=130&section=footer&animation=twinkling" width="100%"/>
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:0891B2,50:4C1D95,100:14052B&section=footer&animation=twinkling" width="100%"/>
 
 </div>
