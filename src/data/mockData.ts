@@ -1,0 +1,97 @@
+import { UniversityHub, Property, RoommateProfile } from '../types';
+import { UNIVERSITY_HUBS as REGIONAL_HUBS, REGIONAL_PROPERTIES } from './regionalData';
+
+export const UNIVERSITY_HUBS: UniversityHub[] = REGIONAL_HUBS;
+
+export const PROPERTIES: Property[] = REGIONAL_PROPERTIES;
+
+export const ROOMMATE_PROFILES: RoommateProfile[] = [
+  {
+    id: 'mate-1',
+    name: 'Aarav Sharma (Demo Profile)',
+    age: 20,
+    avatarUrl: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80',
+    university: 'DU North Campus',
+    major: 'Computer Science & AI',
+    yearOfStudy: '2nd Year',
+    gender: 'male',
+    budgetMonthly: 9000,
+    preferredAreas: ['Hudson Lane', 'Kamla Nagar', 'GTB Nagar'],
+    cleanlinessLevel: 5,
+    sleepSchedule: 'night_owl',
+    studyVibe: 'silent',
+    dietPreference: 'veg',
+    guestPolicy: 'weekends_only',
+    hobbies: ['Coding', 'Chess', 'Badminton', 'Chai Sessions'],
+    bio: 'Sample Profile: CS student at Delhi University. Looking for a neat flatmate who values quiet study hours and good coding discussions.',
+    lookingForRoomType: 'double',
+    verifiedStudent: true,
+    matchScore: 95
+  },
+  {
+    id: 'mate-2',
+    name: 'Meher Kaur (Demo Profile)',
+    age: 21,
+    avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+    university: 'Panjab University Chandigarh',
+    major: 'Architecture & Design',
+    yearOfStudy: '3rd Year',
+    gender: 'female',
+    budgetMonthly: 8500,
+    preferredAreas: ['Sector 15', 'Sector 14', 'Sector 11'],
+    cleanlinessLevel: 5,
+    sleepSchedule: 'flexible',
+    studyVibe: 'light_music',
+    dietPreference: 'veg',
+    guestPolicy: 'occasional',
+    hobbies: ['Sketching', 'Photography', 'Coffee Brewing', 'Yoga'],
+    bio: 'Sample Profile: PU student. Keep the living space tidy, enjoy weekend sketching at Sukhna Lake, looking for a friendly co-living roommate.',
+    lookingForRoomType: 'double',
+    verifiedStudent: true,
+    matchScore: 93
+  },
+  {
+    id: 'mate-3',
+    name: 'Rohit Katoch (Demo Profile)',
+    age: 21,
+    avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+    university: 'Sri Sai University Palampur',
+    major: 'Mechanical Engineering',
+    yearOfStudy: '3rd Year',
+    gender: 'male',
+    budgetMonthly: 6500,
+    preferredAreas: ['Tea Garden Chowk', 'SSU Campus Area', 'Holta'],
+    cleanlinessLevel: 4,
+    sleepSchedule: 'early_bird',
+    studyVibe: 'group_study',
+    dietPreference: 'veg',
+    guestPolicy: 'occasional',
+    hobbies: ['Trekking', 'Cricket', 'Guitar', 'Tea Estate Walks'],
+    bio: 'Sample Profile: Engineering student at SSU Palampur. Friendly, easygoing, looking for a roommate who likes outdoor trekking and quiet evening study.',
+    lookingForRoomType: 'double',
+    verifiedStudent: true,
+    matchScore: 91
+  },
+  {
+    id: 'mate-4',
+    name: 'Tanvi Verma (Demo Profile)',
+    age: 22,
+    avatarUrl: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80',
+    university: 'IIT Delhi',
+    major: 'Data Science & Technology',
+    yearOfStudy: 'Senior (4th Year)',
+    gender: 'female',
+    budgetMonthly: 11000,
+    preferredAreas: ['SDA', 'Hauz Khas', 'Katwaria Sarai'],
+    cleanlinessLevel: 5,
+    sleepSchedule: 'night_owl',
+    studyVibe: 'silent',
+    dietPreference: 'veg',
+    guestPolicy: 'weekends_only',
+    hobbies: ['Data Hackathons', 'Cycling', 'Podcasts'],
+    bio: 'Sample Profile: IIT Delhi tech senior. Looking for a neat flatmate in SDA/Hauz Khas close to campus.',
+    lookingForRoomType: 'double',
+    verifiedStudent: true,
+    matchScore: 96
+  }
+];
